@@ -1,0 +1,91 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+    font-size: 13px;
+}
+
+.location-p,
+footer p:first-child {
+    margin-top: 0;
+}
+
+.name {
+    font-weight: 700;
+}
+
+h1,
+footer p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* IMAGES STYLES */
+
+.post {
+    width: 100%;
+}
+
+.logo {
+    width: 150px;
+}
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+}
+
+.avatar {
+    width: 34px;
+    border: 2px solid #333;
+    border-radius: 100px;
+    align-self: center;
+}
+
+.icons {
+    width: 32px;
+}
+
+.icons-container {
+    justify-content: space-between;
+    width: 120px;
+}
+
+/* LAYOUTS */
+.flex {
+    display: flex;
+}
+
+.header {
+    justify-content: space-between;
+    border-bottom: 2px solid #C6C6C6;
+    padding: 10px;
+}
+
+.section-one,
+.section-three,
+footer {
+    margin-left: 10px;
+}
+
+.section-one .flex {
+    flex-direction: row-reverse;
+    justify-content: start;
+}
+
+.mb {
+    margin-bottom: 20px;
+}
+
+.mR {
+    margin-right: 10px;
+}

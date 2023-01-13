@@ -6,6 +6,7 @@ html, body {
     font-size: 12px;
     font-weight: 400;
     color: #000000;
+    background-color: whitesmoke;
 }
 
 /* TYPOGRAPHY */
@@ -23,8 +24,7 @@ footer p:first-child {
     font-weight: 700;
 }
 
-h1,
-footer p:last-child {
+h1 {
     margin-bottom: 0;
 }
 
@@ -33,6 +33,7 @@ footer p:last-child {
 
 .post {
     width: 100%;
+    display: block;
 }
 
 .logo {
@@ -51,16 +52,27 @@ footer p:last-child {
     align-self: center;
 }
 
-.icons {
-    width: 32px;
+/* Icons */
+
+i {
+    font-size: 1.5rem;
 }
 
+
 .icons-container {
-    justify-content: space-between;
-    width: 120px;
+    display: flex;
+    justify-content: start;
+    gap: 2em;
 }
 
 /* LAYOUTS */
+.bg {
+    background: #ffff;
+    max-width: 400px;
+    margin: 3em auto;
+    
+}
+
 .flex {
     display: flex;
 }
@@ -72,12 +84,12 @@ footer p:last-child {
 }
 
 .section-one,
-.section-three,
 footer {
     margin-left: 10px;
 }
 
-.section-one .flex {
+.section-one {
+    display: flex;
     flex-direction: row-reverse;
     justify-content: start;
 }
@@ -88,4 +100,8 @@ footer {
 
 .mR {
     margin-right: 10px;
+}
+
+footer {
+    border-bottom: 2px solid #C6C6C6;
 }

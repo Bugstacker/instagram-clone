@@ -5,57 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <!-- CSS -->
     <link rel="stylesheet" href="index.css">
+    <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Instagram Clone</title>
 </head>
 
 <body>
-    <header class="mb">
-        <div class="container header flex">
-            <img src="logo.png" alt="oldagram logo" class="logo">
-            <img src="ken.jpg" alt="emkay's profile picture" class="avatar">
-        </div>
-    </header>
-    <main>
-        <section class="section-one mb">
-            
-            <div class="container flex">
-                <div>
-                    <h1><span class="name" >Vincent van Gogh</span></h1>
-                    <p class="location-p">Zundert, Netherlands</p>
-                </div>
-                <img src="avatar-vangogh.jpg" alt="vangogh's avatar" class="avatar mR">
+    <div class="bg">
+        <header class="mb">
+            <div class="container header flex">
+                <img src="images/logo.png" alt="oldagram logo" class="logo">
+                <img src="images/ken.jpg" alt="emkay's profile picture" class="avatar">
             </div>
-            
-        </section>
-        
-        <section class="section-two mb">
-            
-            <div class="container">
-                <img src="post-vangogh.jpg" alt="vangogh's post" class="post">
-            </div>
-            
-        </section>
-        
-        <section class="section-three mb">
-            <div class="container">
-                <div class="icons-container flex">
-                    <a href="#"><img src="icon-heart.png" alt="likes logo" class="icons"></a>
-                    <a href="#"><img src ="icon-comment.png" alt="comments logo"  class="icons"></a>
-                    <a href="#"><img src="icon-dm.png" alt=" share icon"   class="icons"></a>
-                </div>
-            </div>
-        </section>
-        
-    </main>
-    <footer class="mb">
-        <div class="container">
-            <p><span class="name">21,492 likes</span></p>
-            <p><span class="name">vincey1853</span> just took a few mushrooms lol</p>
-        </div>
-    </footer>
-    <script src="index.js"></script>
+        </header>
+        <main>
+            <div id="clone"></div>
+    </div>
+    <script src="index.js" type="module"></script>
 </body>
 </html>

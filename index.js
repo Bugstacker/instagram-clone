@@ -9,7 +9,8 @@
     const clone = document.getElementById("clone");
     
 
-    // render the clone
+    // render the clone function
+    
     function renderClone() {
         for (let post of posts) {
             
